@@ -1,10 +1,10 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const connectDB = async () => {
-    mongoose.connection.on("connected", ()=> {
-         console.log("Database Connected");
+const connectDB = async  () => {
+    mongoose.connection.on('connected', ()=> {
+        console.log("Database Connected");
     })
-    await mongoose.connect(`${process.env.MONGODB_URL}/scrembox`)
+    await mongoose.connect(`${process.env.MONGODB_URL}/imagify`);
 }
 
-export default connectDB;
+export default connectDB
