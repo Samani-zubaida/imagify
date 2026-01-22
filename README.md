@@ -7,37 +7,37 @@ Imagify is a full-stack web application that enables users to generate, manage, 
 Imagify is built to simplify image creation and management by integrating powerful APIs with a responsive web interface. The platform focuses on usability, performance, and secure handling of user data while following best practices in full-stack development.
 
 ## ✨ Features
+1. 🖼 Image generation and management
 
-🖼 Image generation and management
+2. 🔐 Secure user authentication
 
-🔐 Secure user authentication
+3. ⚡ Fast and responsive UI
 
-⚡ Fast and responsive UI
+4. 🌐 API-driven backend architecture
 
-🌐 API-driven backend architecture
-
-📁 Organized image storage and retrieval
+5. 📁 Organized image storage and retrieval
 
 ## 🛠 Tech Stack
 ### Frontend
-
+```
 React / Vite
 Tailwind CSS
 Axios
-
+```
 ### Backend
+```node
 Node.js
 Express.js
 MongoDB
 JWT Authentication
-
+```
 ### Tools
-
+```
 Git & GitHub
 REST APIs
-
+```
 ### 📂 Project Structure
-
+```
 imagify/ <br/>
 ├── client/ <br/>
 │   ├── src/ <br/>
@@ -51,15 +51,13 @@ imagify/ <br/>
 │   └── .gitignore <br/>
 │ <br/>
 └── README.md <br/>
-
+```
 ## 🚀 Getting Started
-
 Follow the steps below to run Imagify locally.
-
 🔐 Environment Variables
 
 Create a .env file in both client and server.
-
+```env
 client/.env.example
 VITE_API_URL=
 
@@ -67,46 +65,48 @@ server/.env.example
 PORT=
 MONGO_URI=
 JWT_SECRET=
-
-
+```
 ### ⚠️ Never push .env files to GitHub.
 
 ▶️ Run Locally
 Clone the repository
+```
 git clone https://github.com/Samani-zubaida/imagify.git
 cd imagify
-
+```
 Install dependencies
+```
 cd client
 npm install
 
 cd ../server
 npm install
-
+```
 ## Start the application
 #### Start frontend
+```
 npm run dev
-
+```
 #### Start backend
+```
 npm start
-
+```
+---
 🔮 Future Improvements
 
-Advanced image editing tools
-Cloud storage integration
-User profile customization
-Performance optimizations
+- Advanced image editing tools
+- Cloud storage integration
+- User profile customization
+- Performance optimizations
 
 🤝 Contributing
 Contributions are welcome!
 Fork the repository and submit a pull request for improvements.
 
 ## 📜 License
-
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
-
 ### Samani Zubaida
 GitHub: https://github.com/Samani-zubaida
 
