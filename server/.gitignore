@@ -1,1 +1,30 @@
-server/.env
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage
+coverage/
